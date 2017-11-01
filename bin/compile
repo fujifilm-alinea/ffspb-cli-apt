@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
@@ -6,6 +5,5 @@ indent() {
   sed -u 's/^/       /'
 }
 
-chmod +x ./install/*.sh
-
+#chmod +x ./install/*.sh
 cp ./install/* $1
